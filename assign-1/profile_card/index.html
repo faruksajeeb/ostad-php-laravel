@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        .left-section{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            float:left;width:40%; padding:30px; 
+            /* background-color: brown;  */
+            margin-top:20px; height:550px; border-radius: 10px;
+            text-align: center;
+            
+        }
+        .right-section{
+            float:right;width:40%; 
+            padding:30px; 
+            /* background-color: brown;  */
+            margin-top:20px; height:550px
+        }
+        .profile-img{
+            width: 200px; /* Adjust the size as needed */
+            height: 200px;
+            border-radius: 50%; /* This makes the image circular */
+        }
+        button{
+            padding: 10px 40px;
+            font-size: 30px;
+            margin-top: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1000px; margin:0 auto" >
+        <div class="left-section" >
+            <img class="profile-img" src="profile-pic.jpg" alt="" >
+            <h2 class="name" style="text-align: center;">Omar Sajeeb</h2>
+            <h3 class="designation" style="text-align: center;color:dimgrey">Web Developer</h3>
+            <p class="short-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius mollitia excepturi consequatur quae magni repellendus odio libero facere expedita aut molestias, quisquam fuga qui ipsum, dolore tempora, vel rem? Nam!s</p>
+            <div style="width: 100%;">
+                <div style="float: left; width: 33%;">
+                    Projects<br/>
+                    <span style="color:rgb(46, 45, 45);font-size: 20px;font-weight: bold;">501</span>
+                </div>
+                <div style="float: left; width: 33%;">
+                    Following<br/>
+                    <span style="color:rgb(46, 45, 45);font-size: 20px;font-weight: bold;">30</span>
+                </div>
+                <div style="float: left; width: 33%;">
+                    Followers<br/>
+                    <span style="color:rgb(46, 45, 45);font-size: 20px;font-weight: bold;">40</span>
+                </div>
+            </div>
+            <div style="margin-top: 50px;">
+                <button style="float:left">Follow</button>
+                <button style="float:right;background-color: black;color: aliceblue;">Hide me</button>
+            </div>
+            
+        </div>
+        <div class="right-section" >
+            <h1 style="font-size: 90px;">Minimal Profile Card</h1>
+            <h5 style="font-size: 30px;">HTML & CSS</h5>
+        </div>
+    </div>
+</body>
+</html>
